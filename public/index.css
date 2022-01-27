@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    /* width: 80%; */
+}
+.main-style{
+
+}
+.add_item{
+    margin: 0 auto;
+    /* background-color: rgb(175,126,235); */
+    background-color: rgb(255,162,73);
+    width: 80%;
+    border-radius: 20px 20px 0 0;
+}
+.add_item_head{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+.mar{
+    margin-left: 10px;
+}
+.form-style{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    
+}
+.form-style input{
+    border: none;
+    margin-left: 1.2rem;
+    padding: 7px 10px;
+    width: 30%;
+}
+.btn-style{
+    /* background-color: rgb(219, 206, 228); */
+    background-color: rgb(44, 43, 43);
+    /* border-color: rgb(167,122,200);; */
+    padding: 7px 10px;
+    margin: 15px;
+    position: relative;
+    left: 47%;
+    border-radius: 5px;
+    color: #fff;
+
+
+}
+.todos_div{
+    /* background-color: rgb(202,220,223); */
+    background-color:    rgb(44, 43, 43);
+
+    margin: -16px auto;
+    width: 80%;
+    position: relative;
+    padding-bottom: 2rem;
+    border-radius: 0 0 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.todos_div h1{
+    font-size: 1.6rem;
+    padding: 10px;
+    position: relative;
+    left: 29%;
+}
+.todos_div table{
+    position: relative;
+    left: 30%;
+    border: 2px solid black;
+    width: 40%;
+
+}
+.todos_div table thead{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* background-color: rgb(52,79,161); */
+    background-color:rgb(255,181,58)
+}
+
+
+
+.todos_div table tbody{
+    /* background-color:     rgb(3,25,86); */
+    background-color:     #fff;
+    color: black;
+
+}
+.todos_div table tbody td{
+    padding:10px;
+}
